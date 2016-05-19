@@ -1,0 +1,28 @@
+{
+  "name": "express_cowrap",
+  "version": "1.0.0",
+  "description": "co-wrap function to use proper error handling and easier asynchronous operations (by using generators) with Express",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive --reporter spec"
+  },
+  "keywords": [
+    "generators",
+    "coroutine",
+    "express"
+  ],
+  "author": "Daniel Pedroso <daniel.exe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "is-generator-function": "^1.0.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "should": "^8.3.2"
+  }
+}
