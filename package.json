@@ -9,6 +9,10 @@
   "scripts": {
     "test": "mocha --recursive --reporter spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danp3d/express_cowrap.git"
+  },
   "keywords": [
     "generators",
     "coroutine",
