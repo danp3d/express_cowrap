@@ -1,6 +1,6 @@
 {
   "name": "express_cowrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "co-wrap function to use proper error handling and easier asynchronous operations (by using generators) with Express",
   "main": "index.js",
   "directories": {
