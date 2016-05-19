@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --recursive --reporter spec"
+    "test": "mocha --recursive --reporter spec && npm run coverage",
+    "coverage": "istanbul cover _mocha -- --recursive -R spec",
+    "coverage-win": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive -R spec"
   },
   "repository": {
     "type": "git",
