@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/danp3d/express_cowrap.svg?branch=master)](https://travis-ci.org/danp3d/express_cowrap)
+[![Code Climate](https://codeclimate.com/github/danp3d/express_cowrap/badges/gpa.svg)](https://codeclimate.com/github/danp3d/express_cowrap)
+[![Issue Count](https://codeclimate.com/github/danp3d/express_cowrap/badges/issue_count.svg)](https://codeclimate.com/github/danp3d/express_cowrap)
+[![Test Coverage](https://codeclimate.com/github/danp3d/express_cowrap/badges/coverage.svg)](https://codeclimate.com/github/danp3d/express_cowrap/coverage)
+
 # express_cowrap
 
 Wraps Express middleware functions so you can use proper error handling for applications depending heavily on Promises.
