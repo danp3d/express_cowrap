@@ -1,6 +1,6 @@
 {
   "name": "express_cowrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "co-wrap function to use proper error handling and easier asynchronous operations (by using generators) with Express",
   "main": "index.js",
   "directories": {
@@ -24,6 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.0",
+    "co": "^4.6.0",
     "is-generator-function": "^1.0.3"
   },
   "devDependencies": {
